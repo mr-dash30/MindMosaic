@@ -1,9 +1,14 @@
 {
+
+  "name": "mindmosaic-backend",
+  "version": "1.0.0",
+  "description": "mindmosaic backend server",
   "scripts": {
     "dev": "wrangler dev src/index.ts",
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "@mr-dash/mindmosaic-zod": "^1.1.1",
     "@prisma/client": "^5.10.2",
     "@prisma/extension-accelerate": "^1.0.0",
     "hono": "^4.0.9",
