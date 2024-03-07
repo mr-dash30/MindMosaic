@@ -10,3 +10,8 @@ bun.lockb
 
 .env
 wrangler.toml
+<<<<<<< HEAD
+=======
+
+# Ignore all files in the .gitignore file
+>>>>>>> e5afed2 (.gitignore is now working)
